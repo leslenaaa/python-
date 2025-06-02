@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumen de HTML y CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff;
+      color: #333;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #004080;
+    }
+
+    .caja {
+      background-color: #ffffff;
+      border-left: 6px solid #3399ff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumen de HTML y CSS</h1>
+
+  <div class="caja">
+    <h2>¿Qué es HTML?</h2>
+    <p>HTML (HyperText Markup Language) es el lenguaje de marcado que se utiliza para estructurar el contenido de las páginas web. Permite organizar textos, imágenes, enlaces, videos y otros elementos.</p>
+    <p>Está compuesto por etiquetas como <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code>, entre muchas otras.</p>
+    <img src="data:image/png;base64,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" alt="Ejemplo de código HTML">
+  </div>
+
+  <div class="caja">
+    <h2>¿Qué es CSS?</h2>
+    <p>CSS (Cascading Style Sheets) es el lenguaje de estilos que se usa para definir la apariencia de un sitio web. Permite cambiar colores, fuentes, márgenes, tamaños, posiciones y más.</p>
+    <p>Con CSS podemos hacer que un sitio sea atractivo, moderno y fácil de usar visualmente.</p>
+    <img src="data:image/png;base64,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" alt="Ejemplo de código CSS">
+  </div>
+
+  <div class="caja">
+    <h2>¿Cómo se usan juntos?</h2>
+    <p>HTML crea la estructura de una página, y CSS se encarga de su diseño visual. Se pueden combinar en un mismo archivo HTML usando la etiqueta <code>&lt;style&gt;</code> o enlazando un archivo externo de CSS.</p>
+    
+
+</body>
+</html>

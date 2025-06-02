@@ -26,3 +26,4 @@ while True:
     else:
         print(f"¡Felicidades! Adivinaste el número en {intentos_realizados} intentos.")
         break
+    intentos = 4  # Número de intentos permitidos
